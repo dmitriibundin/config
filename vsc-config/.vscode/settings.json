@@ -87,5 +87,18 @@
         "workbench.action.toggleSidebarVisibility",
         "workbench.action.focusFirstEditorGroup",
         "workbench.action.togglePanel"
-    ]
+    ],
+    //This is to disable by-default enabled brackets highlight
+    //see https://stackoverflow.com/questions/71675335/how-to-disable-colorized-brackets
+
+    // Bracket-pair colorization
+    "editor.bracketPairColorization.enabled": false, 
+
+    // Bracket-pair guides
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.highlightActiveBracketPair": false,
+
+    // Indentation guides
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false
 }
