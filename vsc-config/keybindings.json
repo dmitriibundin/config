@@ -170,6 +170,16 @@
         "when": "sideBarFocus"
     },
     {
+        "key": "ctrl+w ctrl+h",
+        "command": "workbench.action.focusSideBar",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusSideBar",
+        "when": "panelFocus"
+    },
+    {
         "key": "ctrl+w ctrl+k",
         "command": "workbench.action.focusFirstEditorGroup",
         "when": "panelFocus"
