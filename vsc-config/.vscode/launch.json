@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "gdb",
+            "name": "Attach to GDB server",
+            "request": "attach",
+            "target": ":2345",
+            "cwd": "${workspaceRoot}",
+            "remote": true,
+            // "": "gdb",
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",

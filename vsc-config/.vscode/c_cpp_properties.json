@@ -10,7 +10,7 @@
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/arch/x86/include"
             ],
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            // "compileCommands": "${workspaceFolder}/build/compile_commands.json",
             "browse": {
                 "limitSymbolsToIncludedHeaders": false
             }
